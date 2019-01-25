@@ -1,4 +1,4 @@
-//% color=#0062dB weight=96 icon="\uf294" block="BlockyTalky BLE"
+//% color=#0062dB weight=96 icon="\uf294" block="blockytalky BLE"
 namespace blockyTalkyBLE {
     let delimiter = "^";
     let terminator = "#";
