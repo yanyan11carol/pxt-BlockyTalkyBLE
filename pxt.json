@@ -11,8 +11,7 @@
         "README.md",
         "blockyTalkyBLE.ts"
     ],
-    "testFiles": [
-        "tests.ts"
-    ],
+    
+   
     "public": true
 }
