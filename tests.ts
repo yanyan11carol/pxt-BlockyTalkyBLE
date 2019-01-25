@@ -1,4 +1,4 @@
-iinput.onButtonPressed(Button.B, () => {
+input.onButtonPressed(Button.B, () => {
     basic.showLeds(`
         # . . . .
         # . . . .
