@@ -8,16 +8,7 @@ input.onButtonPressed(Button.B, () => {
         `)
     blockyTalkyBLE.sendMessageWithStringValue("Button", "B")
 })
-input.onButtonPressed(Button.A, () => {
-    basic.showLeds(`
-        # . . . .
-        # . . . .
-        # . . . .
-        # . . . .
-        # . . . .
-        `)
-    blockyTalkyBLE.sendMessageWithNumberValue("accel", 123)
-})
+
 blockyTalkyBLE.onStringReceived("show",  ({ stringValue }) =>  {
     basic.showString(stringValue)
 })
